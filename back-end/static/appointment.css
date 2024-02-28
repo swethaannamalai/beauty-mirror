@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'pacifico',cursive;
+}
+
+  .online-booking{
+    width: 1350px;
+    height:650px;
+    background-image: url(img/a1.jpg);
+    background-size: cover;
+    color:bisque;
+  }
+   
+    
+.appointment h1{
+    padding-left: 755px;
+    color:purple;
+    position: absolute;
+    padding-top: 70px;
+    
+}
+    
+
+
+.form-body{
+    margin-left: 700px;
+    padding: 130px;
+    padding-left: 10px;
+    display: inline-block;
+    width: 500px;
+    
+}
+.row-form-row{
+    padding-top: 10px;
+   
+    color: black;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.row-form-row input{
+     padding: 5px;
+     border: 1px ;
+     border-radius: 10px;
+}
+.row-form-row button{
+    width:200px;
+    padding:10px 0 ;
+    text-align:center;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius :25px;
+    font-weight:bold;
+    border: 2px solid peru;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+.row-form-row button:hover{
+    border: none;
+    background-color: purple;
+    color: rgb(24, 216, 24);
+}
+#box{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: peachpuff;
+    color:coral;
+    margin: 10px;
+}
+
+
+.box img{
+    display:inline-block;
+    width:200px;
+    height: 200px;
+    padding-top: 0px;
+    background-color: violet;
+    margin: 5px;
+    
+
+    
+    }
+    .shop,h1{
+        padding:30px;
+        text-align: center;
+        padding-top: -40px;
+        color: rgb(21, 195, 195);
+        font-size: none;
+        
+    }   
+.shop p{
+    font-size: 25px;
+    color: rgb(249, 95, 95);
+    font-style: oblique;
+    padding-top: -30px;
+    margin-left: 5px;
+         }
+        .services,h3{
+            color: maroon;
+            display: block;
+            
+            
+            
+           }
+           .services a{
+           color:peru;
+           font-weight: bolder;
+           
+           
+           }
+            .box,img,h3,a:hover{
+            
+            display: inline-block;
+            padding: 2px;
+            box-sizing: border-box;
+            margin-left: none;
+           
+        
+        }
+
+.services a:hover{
+    color: brown;
+    background-color: rgb(97, 198, 238);
+    
+}
+.services,button{
+    margin-top: 0%;
+    padding:10px;
+    
+}

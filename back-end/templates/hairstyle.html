@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='hairstyle.css') }}">
+</head>
+<body>
+    <div class="hair-styling">
+        <h1>HAIR STYLING</h1>
+        <div class="curling">
+            <div class="layer">
+                <img src="{{ url_for('static', filename='img/hdye.jpg') }}" alt="Hair Dye Image">
+            </div>
+            <div class="straight">
+                <h3>Hair Dye</h3>
+                <a href="{{ url_for('appointment') }}"><button>₹300</button></a>
+
+            </div>
+            </div>
+            <div class="curling">
+                <div class="layer">
+                    <img src="{{ url_for('static', filename='img/hspa.webp') }}" alt="HSPA Image">
+                </div>
+                <div class="straight">
+                    <h3>Hair Spa</h3>
+                    <a href="{{ url_for('appointment') }}"><button>₹800</button></a>
+                </div>
+                </div>
+                <div class="curling">
+                    <div class="layer">
+                        <img src="{{ url_for('static', filename='img/step.jpg') }}" alt="Step Image">
+                    </div>
+                    <div class="straight">
+                        <h3>Step Cut</h3>
+                        <a href="{{ url_for('appointment') }}"><button>₹400</button></a>
+                    </div>
+                    </div>
+                    <div class="curling">
+                        <div class="layer">
+                            <img src="{{ url_for('static', filename='img/lay1.jpg') }}" alt="Lay Image 1">
+                        </div>
+                        <div class="straight">
+                            <h3>Layer Cut</h3>
+                            <a href="{{ url_for('appointment') }}"><button>₹300</button></a>
+
+                        </div>
+                        </div>
+                        <div class="curling">
+                            <div class="layer">
+                                <img src="{{ url_for('static', filename='img/choppy-lob.jpg') }}" alt="Choppy Lob Image">
+
+                            </div>
+                            <div class="straight">
+                                <h3>Choppy Lop Cut</h3>
+                                <a href="{{ url_for('appointment') }}"><button>₹300</button></a>
+                            </div>
+                            </div>
+                            <div class="curling">
+                                <div class="layer">
+                                    <img src="{{ url_for('static', filename='img/a-line.jpg') }}" alt="A-Line Image">
+
+                                </div>
+                                <div class="straight">
+                                    <h3>A-Line Cut</h3>
+                                    <a href="/appointment"><button>₹300</button></a>
+                                </div>
+                                </div>
+    
+        </div>
+    </div>
+    </body>
+</body>
+</html>

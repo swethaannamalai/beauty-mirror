@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bridal.css') }}">
+</head>
+<body>
+    <div class="bridal-makeup">
+        <h1>BRIDAL MAKE_UP PACKAGES</h1>
+        <div class="yer-dws">
+            <div class="siri-kri">
+                <img src="{{ url_for('static', filename='img/regular.jpg') }}" alt="Regular Image">
+            </div>
+            <div class="lke-wrd">
+                <h3>Regular Makeup</h3>
+                <a href="/appointment"><button>₹13,000</button></a>
+            </div>
+        </div>
+        <div class="yer-dws">
+            <div class="siri-kri">
+                <img src="{{ url_for('static', filename='img/hd.webp') }}" alt="HD Image">
+            </div>
+            <div class="lke-wrd">
+                <h3>HD Makeup</h3>
+               <a href="/appointment"><button>₹16,000</button></a>
+            </div>
+        </div>
+        <div class="yer-dws">
+            <div class="siri-kri">
+                <img src="{{ url_for('static', filename='img/water.jpg') }}" alt="Water Image">
+            </div>
+            <div class="lke-wrd">
+                <h3>Waterproof Makeup</h3>
+                <a href="/appointment"><button>₹20,000</button></a>
+            </div>
+        </div>
+        <div class="yer-dws">
+            <div class="siri-kri">
+                <img src="{{ url_for('static', filename='img/air-brush.jpg') }}" alt="Air Brush Image">
+            </div>
+            <div class="lke-wrd">
+                <h3>AirBrush Makeup</h3>
+                <a href="/appointment"><button>₹25,000</button></a>
+            </div>
+        </div>
+        <div class="yer-dws">
+            <div class="siri-kri">
+                <img src="{{ url_for('static', filename='img/minimal-mp.jpg') }}" alt="Minimal MP Image">
+            </div>
+            <div class="lke-wrd">
+                <h3>Minimal Makeup</h3>
+                <a href="/appointment"><button>₹5,000</button></a>
+            </div>
+        </div>
+        <div class="yer-dws">
+            <div class="siri-kri">
+                <img src="{{ url_for('static', filename='img/matte-makeup.jpg') }}" alt="Matte Makeup Image">
+            </div>
+            <div class="lke-wrd">
+                <h3>Matte Makeup</h3>
+                <a href="/appointment"><button>₹10,000</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

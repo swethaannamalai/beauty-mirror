@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color: rgb(154, 4, 154);
+    height: 50px;
+    width: 1350px;
+}
+nav{
+    width: 1350px;
+    height: 570px;
+    background-image:url(img/homepic.jpg);
+    background-size: cover;
+    position: relative;
+    top:30px;
+    
+}
+nav ul,li{
+    list-style: none;
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 17px;
+    padding: 3px;
+    position: relative;
+    bottom: 40px;
+    left:50px;
+    text-align: center;
+    }
+    .nav,ul,li,a{
+        text-decoration: none;
+        color:whitesmoke;
+    }
+    
+        nav li,a:hover{
+            color:rgb(16, 230, 16);
+        
+        
+    }
+.logo {
+    color:white;
+    font-size: 30px;
+}
+.logo form{
+    color:black;
+    display: inline;
+}
+
+nav h1{
+    display: inline;
+font-size: 28px;
+margin-right: 80%;
+padding: 30px;
+position: relative;
+bottom: 50px;
+}
+ 
+nav ul{
+margin-left: 35%;
+text-transform: uppercase;
+}
+
+
+
+ nav li{
+    color:whitesmoke;
+    cursor:pointer;
+ } 
+ .chat-container{
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+.chatBtn {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30%;
+    border: none;
+    background-color: purple; 
+    background-image: orangered;
+    cursor: pointer;
+    padding-top: 3px;
+    box-shadow: 5px 5px 10px violet;
+    position: relative;
+    right: 20px;
+    top:90px;
+    background-size: 300%;
+    background-position: left;
+    transition-duration: 1s;
+    z-index: 999;
+    opacity: 1;
+    animation: slideLeft 1s ease forwards,floatImage 4s ease-in-out infinite ;
+    animation-delay: .5s ,1.5s;
+
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -40px;
+    opacity: 0;
+    background-color:green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+    pointer-events: none;
+    letter-spacing: 0.5px;
+  }
+  
+  .chatBtn:hover .tooltip {
+    opacity: 1;
+    transition-duration: .5s;
+  }
+  
+  .chatBtn:hover {
+    
+    background-position: right;
+    transition-duration: 1s;
+
+    background: rgba(255, 165, 0, .2)
+   
+
+  }
+  .chatBtn svg:hover{
+    fill:green;
+  }
+
+                         
+ 
+ .content{
+    width:70%;
+    position: absolute;
+    margin-left: -70px;
+    top:50%;
+    transform:translatey(-50%);
+    text-align: center;
+    
+ }
+ 
+
+
+
+ .content h1{
+    font-size: 70px;
+    margin-top: 80px;
+     color:maroon;
+}
+.content.p{
+    margin:20px auto;
+    font-size:larger;
+    font-weight: 75px;
+    color:black;  
+}
+.content button{
+width:200px;
+padding:15px 0 ;
+text-align:center;
+margin: 20px 10px;
+border-radius :25px;
+font-weight:bold;
+border: 2px solid rgb(6, 193, 6);
+background-color: purple;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+
+}
+span{
+
+height: 100%;
+width: 100%;
+border-radius: 25px;
+position:absolute;
+left: 0;
+bottom: 0;
+z-index:-1;
+transition: 0.5s;
+}
+button:hover span{
+    width: 1005;
+    }
+    button:hover{
+    border: none;
+    }

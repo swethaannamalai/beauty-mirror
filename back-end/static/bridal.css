@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'pacifico',cursive;
+}
+.bridal-makeup{
+    padding-top: 170px;
+    margin-left:170px;
+
+    
+    
+
+}
+.bridal-makeup h1{
+   position: relative;
+   bottom: 130px;
+   left:300px;
+
+    color: rgb(230, 30, 230);
+}
+.yer-dws{
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.lke-wrd{
+    text-align: center;
+    position: relative;
+    font-style: bold;
+    bottom: 20px;
+    color: brown;
+}
+.yer-dws.siri-kri,img{
+    width:250px;
+    height:250px;
+    margin: 20px;
+    flex-basis: 25%;   
+}
+.lke-wrd.a,button{
+    width:200px;
+    padding:5px ;
+    text-align:center;
+    border-radius :25px;
+    font-weight:bold;
+    border: 2px solid rgb(6, 193, 6);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+.yer-dws.siri-kri,button:hover{
+    color:rgb(59, 187, 238);
+    background-color: rgb(227, 37, 227);
+    cursor: pointer;
+}

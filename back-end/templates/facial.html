@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='facial.css') }}">
+</head>
+<body>
+    <div class="menu-description" id="menu-description">
+    
+        <h1>FACIAL</h1>
+        <div class="facial-list">
+    
+           <div class="glowing">
+            <img src="{{ url_for('static', filename='img/chocolate facia.jpg') }}" alt="Chocolate Facial Image">
+           </div>
+           <div class="instant">
+               <h3>Chocolate Facial</h3><br>
+               <a href="{{ url_for('appointment') }}"><button>₹500</button></a>
+           </div>
+           </div>
+           <div class="facial-list">
+               <div class="glowing">
+                <img src="{{ url_for('static', filename='img/gold facial.jpg') }}" alt="Gold Facial Image">
+               </div>
+               <div class="instant">
+                   <h3>Golden Facial</h3><br>
+                   <a href="{{ url_for('appointment') }}"><button>₹800</button></a>
+               </div>
+               </div>
+               <div class="facial-list">
+                   <div class="glowing">
+                    <img src="{{ url_for('static', filename='img/instance glow facial.jpg') }}" alt="Instance Glow Facial Image">
+                   </div>
+                   <div class="instant">
+                       <h3>Instant Glow Facial</h3><br>
+                       <a href="{{ url_for('appointment') }}"><button>₹700</button></a>
+                   </div>
+                   </div>
+                   <div class="facial-list">
+                       <div class="glowing">
+                        <img src="{{ url_for('static', filename='img/diamond facial.jpg') }}" alt="Diamond Facial Image">
+                       </div>
+                       <div class="instant">
+                           <h3>Diamond Facial</h3><br>
+                           <a href="{{ url_for('appointment') }}"><button>₹1000</button></a>
+                       </div>
+                       </div>
+                       <div class="facial-list">
+                           <div class="glowing">
+                            <img src="{{ url_for('static', filename='img/cleanup.jpg') }}" alt="Cleanup Image">
+                           </div>
+                           <div class="instant">
+                               <h3>Cleanup Facial</h3><br>
+                               <a href="{{ url_for('appointment') }}"><button>₹400</button></a>
+                           </div>
+                           </div>
+                           <div class="facial-list">
+                               <div class="glowing">
+                                <img src="{{ url_for('static', filename='img/fruit.jpg') }}" alt="Fruit Image">
+                               </div>
+                               <div class="instant">
+                                   <h3>Friut Facial</h3><br>
+                                   <a href="{{ url_for('appointment') }}"><button>₹600</button></a>
+                               </div>
+                               </div>
+           </div>
+        </div>
+</body>
+</html>

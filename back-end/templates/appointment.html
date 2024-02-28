@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='appointment.css') }}">
+</head>
+<body>
+    
+
+<div class="online-booking">
+    <div class="appointment">
+    <h1>MAKE AN APPOINTMENT</h1>
+  <div class="BOOKING">
+    <div class="form-body">
+        <form action="/appointment" method="POST">
+        <div class="row-form-row">
+           <h5>NAME:</h5><input type="text" placeholder="Enter Your Name"class="form control" required name="name">
+        </div>
+        <div class="row-form-row">
+           <h5>SERVICES:</h5><input type="text" placeholder="Enter services"class="form control" required name="services">
+        </div>
+        <div class="row-form-row">
+            <h5>PRICE:</h5><input type="text" placeholder="Enter price"class="form control" required name="price">
+        </div>
+        <div class="row-form-row">
+            <h5>DATE:</h5><input type="date" placeholder="Appointment date"class="form control" required name="date">
+        </div>
+        <div class="row-form-row">
+            <h5>TIME:</h5><input type="time" placeholder="Enter time"class="form control" required name="time">
+        </div>
+        <div class="row-form-row">
+           <h5>PHONE NUMBER:</h5><input type="number" placeholder="Enter phone number"class="form control" required name="phonenumber">
+        </div>
+        <div class="row-form-row">
+            <a href="/"><button type="submit"><span></span>Book Appointment</button></a>
+        </div>
+        </form>
+    </div>
+</div>
+  </div>   
+</div>
+</div>
+</body>
+</html>

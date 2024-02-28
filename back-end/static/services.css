@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'pacifico',cursive;
+}
+.box{
+    background-color: rgb(230, 153, 230);
+    color:coral;
+    flex-wrap: wrap;
+    display: flex;
+position: relative;
+top:80px;
+    
+}
+
+
+.box img{
+    display:inline-block;
+    width:250px;
+    height: 250px;
+    background-color: violet;
+    margin: 5px;
+    flex-basis: 25%;
+    position: relative;
+
+
+    }
+    .shop,h1{
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(215, 45, 215);
+        font-size: none;
+        
+    }   
+.shop p{
+    font-size: 25px;
+    color: salmon;
+    font-style: oblique;
+    position: relative;
+    top: 30px;
+    margin-left: 5px;
+}
+        .services,h3{
+            color: maroon;
+            display: block;
+            
+            
+            
+           }
+           .services a{
+           color:peru;
+           font-weight: bolder;
+           
+           
+           }
+            .box,img,h3,a:hover{
+            
+            display: inline-block;
+            padding: 2px;
+            box-sizing: border-box;
+            margin-left: none;
+           
+        
+        }
+
+.services a:hover{
+    color: aqua;
+    background-color: blueviolet;
+    
+}
+.services,button{
+    margin-top: 0%;
+    padding:10px;
+    
+}
